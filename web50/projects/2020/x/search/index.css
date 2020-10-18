@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#middle {
+    margin-top: 250px; 
+}
+
+#logo{
+    text-align: center; 
+}
+
+#searchbarcontainer {
+    text-align: center; 
+    margin-top: 20px;
+    position: relative;
+    }
+
+
+#search, #voice {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    left:300px;
+    width: 20px;
+    opacity: .4;
+    top: 13px;
+}
+
+#voice {
+    right: 300px;
+    width: 20px;
+    height:2px;
+    top:13px;
+}
+
+#searchbar{ 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0; 
+    width: 800px;
+    border-radius: 15px;
+    border: 2px solid #eeeeee;
+}
+
+#buttons {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+.button { 
+    margin-left: 10px;
+    outline: 0;
+    outline-color: seashell;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 q0px 2px black;
+    border: 2px solid #eee;
+}
+
+#advi2{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+#span2 {
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+#header {
+    color: red;
+    font-family: Cambria; 
+
+}
+
+ #box {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    outline: 0; 
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 5px;
+    border: 2px solid #eeeeee;
+ }
+
+ #box:hover {
+    box-shadow: 0 0 q0px 2px black;
+    border: 2px solid #eee;
+}
+
+#bar { 
+    background-color: rgba(106, 157, 235, 0.925); 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white; 
+    border-radius: 3%;
+    outline-color: whitesmoke;
+    outline: 0px;
+} 
+
+#word {
+margin-bottom: 60px;
+margin-top: 30px;
+}
